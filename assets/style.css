@@ -1,0 +1,145 @@
+:root { 
+    --black: #000000;
+    --eerie-black: #201b1b;
+    --white: #ffffff;
+   
+    --font-size-l: 26px;
+    --font-size-m: 22px;
+    --font-size-xl: 60px;
+   
+    --font-family-abhaya_libre: "Abhaya Libre", Helvetica;
+    --font-family-abhaya_libre_extrabold-regular: "Abhaya Libre ExtraBold-Regular", Helvetica;
+    --font-family-avenir-regular: "Avenir-Regular", Helvetica;
+  }
+  .avenir-regular-normal-black-22px {
+    color: var(--black);
+    font-family: var(--font-family-avenir-regular);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  .homepage {
+    align-items: flex-start;
+    background-color: #84a1b9;
+    border: 1px none;
+    display: flex;
+    gap: 382px;
+    height: 906px;
+    overflow: hidden;
+    width: 1301px;
+  }
+  
+  .homepage .overlap-group {
+    margin-top: -22px;
+    position: relative;
+  }
+  
+  .homepage .overlap-group2 {
+    left: 0;
+    position: absolute;
+    top: 0;
+  }
+  
+  .homepage .ellipse-6 {
+    background-color: #ff4318;
+    border-radius: 384.5px/463px;
+    height: 926px;
+    left: 76px;
+    top: 358px;
+    width: 769px;
+  }
+  
+  .homepage .ellipse-5 {
+    background-color: #73e0a9;
+    border-radius: 341px/410.5px;
+    height: 821px;
+    left: 363px;
+    top: 0;
+    width: 682px;
+  }
+  
+  .homepage .noise {
+    height: 906px;
+    left: 0;
+    mix-blend-mode: color-burn;
+    position: absolute;
+    top: 22px;
+    width: 1301px;
+  }
+  
+  .homepage .button {
+    align-items: flex-start;
+    border: 1.5px solid;
+    border-color: #211c1c;
+    border-radius: 30px;
+    display: flex;
+    gap: 10px;
+    left: 108px;
+    overflow: hidden;
+    padding: 14px 55px;
+    position: absolute;
+    top: 672px;
+    width: fit-content;
+  }
+  
+  .homepage .tap-to-open {
+    color: #211c1c;
+    font-family: var(--font-family-abhaya_libre_extrabold-regular);
+    font-size: var(--font-size-l);
+    font-weight: 400;
+    letter-spacing: -0.65px;
+    line-height: 26px;
+    margin-top: -1.50px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .homepage .jar {
+    height: 650px;
+    left: 732px;
+    position: absolute;
+    top: 151px;
+    width: 478px;
+  }
+  
+  .homepage .birthday-countdown-w {
+    color: var(--eerie-black);
+    font-family: var(--font-family-abhaya_libre_extrabold-regular);
+    font-size: var(--font-size-xl);
+    font-weight: 400;
+    left: 108px;
+    letter-spacing: -1.50px;
+    line-height: 60px;
+    position: absolute;
+    top: 207px;
+  }
+  
+  .homepage .span1 {
+    font-family: var(--font-family-abhaya_libre);
+  }
+  
+  .homepage .self-love-is-importa {
+    left: 108px;
+    letter-spacing: 0;
+    line-height: 30.8px;
+    position: absolute;
+    top: 422px;
+    width: 495px;
+  }
+  
+  .homepage .ellipse {
+    filter: blur(509px);;
+    position: absolute;
+  }
+  
+  .homepage .overlap {
+    height: 1284px;
+    width: 1301px;
+  }
+
+
+
+
+  
