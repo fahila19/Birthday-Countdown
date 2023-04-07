@@ -18,16 +18,21 @@
     font-style: normal;
     font-weight: 400;
   }
-
+body {
+  margin: 0;
+  display: block;
+  background-color: #84a1b9;
+}
   .homepage {
     align-items: flex-start;
     background-color: #84a1b9;
     border: 1px none;
     display: flex;
     gap: 382px;
-    height: 906px;
+    height: 100vh;
     overflow: hidden;
-    width: 1301px;
+    width: 100vw;
+    
   }
   
   .homepage .overlap-group {
@@ -35,11 +40,11 @@
     position: relative;
   }
   
-  .homepage .overlap-group2 {
+  /* .homepage .overlap-group2 {
     left: 0;
     position: absolute;
     top: 0;
-  }
+  } */
   
   .homepage .ellipse-6 {
     background-color: #ff4318;
@@ -48,6 +53,7 @@
     left: 76px;
     top: 358px;
     width: 769px;
+   
   }
   
   .homepage .ellipse-5 {
@@ -57,29 +63,30 @@
     left: 363px;
     top: 0;
     width: 682px;
+   
   }
   
   .homepage .noise {
-    height: 906px;
+    height: 100vh;
     left: 0;
     mix-blend-mode: color-burn;
     position: absolute;
-    top: 22px;
-    width: 1301px;
+    top: 0;
+    width: 100vw;
   }
   
   .homepage .button {
-    align-items: flex-start;
+    /* align-items: flex-start; */
     border: 1.5px solid;
     border-color: #211c1c;
     border-radius: 30px;
-    display: flex;
-    gap: 10px;
-    left: 108px;
+    /* display: flex; */
+    /* gap: 10px; */
+    /* left: 108px; */
     overflow: hidden;
     padding: 14px 55px;
-    position: absolute;
-    top: 672px;
+    /* position: absolute;
+    top: 672px; */
     width: fit-content;
   }
   
@@ -98,22 +105,22 @@
   
   .homepage .jar {
     height: 650px;
-    left: 732px;
+    /* left: 732px;
     position: absolute;
-    top: 151px;
+    top: 151px; */
     width: 478px;
   }
   
   .homepage .birthday-countdown-w {
     color: var(--eerie-black);
-    font-family: var(--font-family-abhaya_libre_extrabold-regular);
+    font-family:'AbhayaLibre-ExtraBold', sans-serif;
     font-size: var(--font-size-xl);
     font-weight: 400;
-    left: 108px;
+    /* left: 108px; */
     letter-spacing: -1.50px;
     line-height: 60px;
-    position: absolute;
-    top: 207px;
+    /* position: absolute;
+    top: 207px; */
   }
   
   .homepage .span1 {
@@ -121,17 +128,18 @@
   }
   
   .homepage .self-love-is-importa {
-    left: 108px;
+    /* left: 108px; */
     letter-spacing: 0;
     line-height: 30.8px;
-    position: absolute;
-    top: 422px;
+    /* position: absolute;
+    top: 422px; */
     width: 495px;
   }
   
   .homepage .ellipse {
     filter: blur(509px);;
     position: absolute;
+    
   }
   
   .homepage .overlap {
@@ -140,6 +148,19 @@
   }
 
 
+  .landingpage
+{position: relative;
+  display: flex;
+  z-index: 2;
+  margin: 30px auto;
+  width: fit-content;
+  height: fit-content;
 
+}
 
+@media only screen and (max-width: 600px) {
+  .landingpage {
+    display: block;
+  }
+}
   
