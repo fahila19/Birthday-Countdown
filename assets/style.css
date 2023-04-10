@@ -88,8 +88,27 @@ body {
     /* position: absolute;
     top: 672px; */
     width: fit-content;
+    background-color: #00000000
+    
   }
+  .button:hover {background-color: #ffffff;
+    /* border-color: #ffffff;
+    color: #ffffff;
+    text-decoration: none; */
+    
+  }
+
+
+/* .button:active {
+  background-color: #3e8e41; */
   
+  a{
+    text-decoration: none;
+     font-family: var(--font-family-avenir-regular);
+
+  }
+
+
   .homepage .tap-to-open {
     color: #211c1c;
     font-family: var(--font-family-abhaya_libre_extrabold-regular);
@@ -147,7 +166,7 @@ body {
     width: 1301px;
   }
 
-
+  
   .landingpage
 {position: relative;
   display: flex;
@@ -164,3 +183,4 @@ body {
   }
 }
   
+
