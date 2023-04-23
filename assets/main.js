@@ -8,31 +8,31 @@ let messages = [{
 	day: "Monday, 17 April",
 	message: "Hey, superstar! Don't forget to celebrate yourself and all that you've accomplished so far. You are doing amazing!",
 	},{
-	day: "Tuesday, 18th April",
+	day: "Tuesday, 18 April",
 	message: "Good morning, beautiful! Take a moment to appreciate yourself today. You are worthy of love and respect.",
 	},{
-	day: "Wednesday, 19th April",
+	day: "Wednesday, 19 April",
 	message: "Hey friend! Treat yourself kindly today. You deserve to be happy and loved just as much as anyone else.",
 	},{
-	day: "Thursday, 20th April",
+	day: "Thursday, 20 April",
 	message: "Hey there! Remember, you are unique and amazing just the way you are. Don't let anyone dim your light.",
 	},{
-	day: "Friday, 21st April",
+	day: "Friday, 21 April",
 	message: "Good day, champ! Be proud of yourself for being resilient and strong. You've got this!",
 	},{
-	day: "Saturday, 22nd April",
+	day: "Saturday, 22 April",
 	message: "Hey there, gorgeous! Take a deep breath and feel your worth. You are deserving of love and happiness.",
 	},{
-	day: "Sunday, 23rd April",
+	day: "Sunday, 23 April",
 	message: "Hey friend! Remember, you are not alone. There are people who love and appreciate you just the way you are.",
 	},{
-	day: "Monday, 24th April",
+	day: "Monday, 24 April",
 	message: "Hey, warrior! Keep fighting for what you believe in, and don't forget to show yourself some compassion along the way.",
 	},{
-	day: "Tuesday, 25th April",
+	day: "Tuesday, 25 April",
 	message: "Hey there, sweetie! Take a moment to relax and do something that brings you joy. You deserve to feel good.",
 	},{
-	day: "Wednesday, 26th April",
+	day: "Wednesday, 26 April",
 	message: "Hii Honey! Your smile is contagious, Smile at yourself in the mirror and notice how it brightens your day!",
 	}]
 

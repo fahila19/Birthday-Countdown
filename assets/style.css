@@ -1,3 +1,5 @@
+
+
 :root { 
     --black: #000000;
     --eerie-black: #201b1b;
@@ -439,4 +441,10 @@ body {
   font-style: normal;
   font-weight: 400;
   src: url("assets/fonts/Avenir-Roman.otf") format("opentype");
+}
+
+@media only screen and (max-width: 600px) {
+  .landingpage {
+    display: block;
+  }
 }
