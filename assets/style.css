@@ -73,10 +73,10 @@ body {
   .homepage .noise {
     height: 100vh;
     left: 0;
-    mix-blend-mode: color-burn;
-    position: absolute;
+    /* mix-blend-mode: color-burn; */
+    /* position: absolute;
     top: 0;
-    width: 100vw;
+    width: 100vw; */
   }
   
   .homepage .button {
@@ -128,16 +128,17 @@ body {
   
   .homepage .jar {
     height: 650px;
-    /* left: 732px;
-    position: absolute;
-    top: 151px; */
+    right: 732px;
+    /* top: 151px; */ 
     width: 478px;
+    /* position:absolute; */
+    
   }
   
   .homepage .birthday-countdown-w {
     color: var(--eerie-black);
-    font-family:'AbhayaLibre-ExtraBold', sans-serif;
-    font-size: var(--font-size-xl);
+    font-family: var(--font-family-abhaya_libre_extrabold-regular);
+    font-size: var(--font-size-xxxl);
     font-weight: 400;
     /* left: 108px; */
     letter-spacing: -1.50px;
@@ -338,13 +339,13 @@ body {
   font-family: "Abhaya Libre ExtraBold-Regular";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/AbhayaLibre-ExtraBold.ttf") format("truetype");
+  src: url("assets/fonts/AbhayaLibre-ExtraBold.ttf") format("truetype");
 }
 @font-face {
   font-family: "Avenir-Regular";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/Avenir-Roman.otf") format("opentype");
+  src: url("assets/fonts/Avenir-Roman.otf") format("opentype");
 }
 
 
@@ -388,14 +389,14 @@ body {
   width: 682px;
 }
 
-.noise {
+/* .noise {
   height: 906px;
   left: 0;
   mix-blend-mode: color-burn;
   position: absolute;
   top: 22px;
   width: 1301px;
-}
+} */
 
 .ellipse {
   filter: blur(509px);;
@@ -427,3 +428,15 @@ body {
   font-weight: 400;
 }
   
+@font-face {
+  font-family: "Abhaya Libre ExtraBold-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("assets/fonts/AbhayaLibre-ExtraBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Avenir-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("assets/fonts/Avenir-Roman.otf") format("opentype");
+}
