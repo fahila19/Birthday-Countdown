@@ -27,8 +27,29 @@ body {
   box-sizing: border-box;
   display: block;
   background-color: #84a1b9;
+  background: linear-gradient(to right, #feac5e, #c779d0, #4bc0c8);
+  background-size: 400% 400%;
+  animation: Gradient 15s ease infinite;
+  
+  }
+  
+
+  @keyframes Gradient {
+    0% {
+      background-position: 0% 50%
+    }
+    50% {
+      background-position: 100% 50%
+    }
+    100% {
+      background-position: 0% 50%
+    }
+  }
+  
+  
+  
+  
   /* overflow:hidden; */
-}
  
   .button:hover {background-color: #ffffff;
     /* border-color: #ffffff;
@@ -69,6 +90,9 @@ body {
 .page2 {
   align-items: flex-start;
   background-color: #84a1b9;
+  background: linear-gradient(to right, #feac5e, #c779d0, #4bc0c8);
+  background-size: 400% 400%;
+  animation: Gradient 15s ease infinite;
   border: 1px none;
   display: flex;
   /* gap: 1211px; */
@@ -111,12 +135,12 @@ body {
 
 .page2 .title {
   color: var(--eerie-black);
-  font-family: var(--font-family-abhaya_libre_extrabold-regular);
+  font-family: var("assets/fonts/AbhayaLibre-ExtraBold.ttf");
   font-size: var(--font-size-xxl);
-  font-weight: 400;
+  font-weight: 550;
   letter-spacing: -0.75px;
   line-height: 30px;
-  margin-right: 4.0px;
+  margin-right: -92.0px;
   min-width: 284px;
   white-space: nowrap;
 }
@@ -305,3 +329,13 @@ body {
   font-weight: 400;
 }
   
+button {
+  color: black;
+  border-radius: 24px;
+  border: 2px transparent;
+  margin-left: 1390px;
+}
+
+body {
+  background-color: transparent;
+}
