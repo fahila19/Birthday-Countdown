@@ -209,7 +209,7 @@ body {
   left: 89px;
   min-width: 55px;
   padding: 17.3px 12.2px;
-  position: absolute;
+  position: top;
   top: 812px;
 }
 
@@ -270,38 +270,6 @@ body {
 
 * {
   box-sizing: border-box;
-}
-
-.ellipse-6 {
-  background-color: #ff4318;
-  border-radius: 384.5px/463px;
-  height: 926px;
-  left: 76px;
-  top: 358px;
-  width: 769px;
-}
-
-.ellipse-5 {
-  background-color: #73e0a9;
-  border-radius: 341px/410.5px;
-  height: 821px;
-  left: 363px;
-  top: 0;
-  width: 682px;
-}
-
-.noise {
-  height: 100%;
-  left: 0;
-  mix-blend-mode: color-burn;
-  position: absolute;
-  top: 0;
-  width: 100%;
-}
-
-.ellipse {
-  filter: blur(509px);;
-  position: absolute;
 }
 
 :root { 
