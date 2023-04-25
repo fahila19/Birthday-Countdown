@@ -135,47 +135,6 @@ body {
 
 }
 
-/* @media only screen and (max-width: 600px) {
-  .landingpage {
-    display: block;
-  }
-} */
-/* screen - page2 */
-
-.page2 .todo-weekly {
-  align-items: center;
-  /* background-color: #e5efec; */
-  background: linear-gradient(to right, #feac5e, #c779d0, #4bc0c8);
-	background-size: 400% 400%;
-	animation: Gradient 15s ease infinite;
-  border: 4px solid;
-  border-color: #5b3d38;
-  border-radius: 24px;
-  box-shadow: 12px 12px 0px #33322e;
-  display: flex;
-  flex-direction: column;
-  left: 453px;
-  min-height: 419px;
-  padding: 23px 0;
-  position: absolute;
-  top: 184px;
-  width: 396px;
-}
-
-
-@keyframes Gradient {
-	0% {
-		background-position: 0% 50%
-	}
-	50% {
-		background-position: 100% 50%
-	}
-	100% {
-		background-position: 0% 50%
-	}
-}
-
-
 @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
 @import url("https://fonts.googleapis.com/css?family=Poppins:400|Abhaya+Libre:400");
 
@@ -208,4 +167,11 @@ body {
   --font-family-abhaya_libre_extrabold-regular: "Abhaya Libre ExtraBold-Regular", Helvetica;
   --font-family-avenir-regular: "Avenir-Regular", Helvetica;
   --font-family-poppins: "Poppins", Helvetica;
+}
+.avenir-regular-normal-black-22px {
+  color: var(--black);
+  font-family: var(--font-family-avenir-regular);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
 }
