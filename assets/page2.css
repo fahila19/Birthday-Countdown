@@ -182,6 +182,7 @@ button {
   background-color: transparent;
 }
 
+
 /* for screens with a width of 1300px or more */
 @media (min-width: 1300px) {
   .page2 .todo-weekly {
