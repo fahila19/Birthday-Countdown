@@ -168,12 +168,16 @@ body {
 }
   
 button {
-  color: black;
-  border-radius: 24px;
-  border: 2px transparent;
   margin-left: 1390px;
-}
-
-body {
+  align-items: flex-start;
+  border: 1.5px solid;
+  border-color: var(--black);
+  border-radius: 27.5px;
+  cursor: pointer;
+  display: flex;
+  height: 55px;
+  left: 89px;
+  min-width: 55px;
+  padding: 17.3px 12.2px;
   background-color: transparent;
 }
