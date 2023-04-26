@@ -32,7 +32,7 @@ let messages = [{
 	day: "Tuesday, 25 April",
 	message: "Hey there, sweetie! Take a moment to relax and do something that brings you joy. You deserve to feel good.",
 	},{
-	day: "Wednesday, 26 April",
+	day: "Wednesday, 3 May",
 	message: "Hii Honey! Your smile is contagious, Smile at yourself in the mirror and notice how it brightens your day!",
 	}]
 
