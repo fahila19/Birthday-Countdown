@@ -168,7 +168,7 @@ body {
 }
   
 button {
-  margin-left: 1390px;
+  position: fixed;
   align-items: flex-start;
   border: 1.5px solid;
   border-color: var(--black);
@@ -180,4 +180,34 @@ button {
   min-width: 55px;
   padding: 17.3px 12.2px;
   background-color: transparent;
+}
+
+/* for screens with a width of 1300px or more */
+@media (min-width: 1300px) {
+  .page2 .todo-weekly {
+    left: 453px;
+    top: 184px;
+  }
+}
+
+/* for screens with a width between 768px and 1300px */
+@media (min-width: 768px) and (max-width: 1299px) {
+  .page2 .todo-weekly {
+    left: 21.5%;
+    top: 18%;
+    width: 57%;
+  }
+}
+
+/* for screens with a width between 375px and 767px */
+@media (max-width: 767px) {
+  .page2 .todo-weekly {
+    left: 5%;
+    top: 18%;
+    width: 90%;
+  }
+
+  .page2 .title {
+    font-size: 24px;
+  }
 }
