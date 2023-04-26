@@ -53,7 +53,8 @@ body {
   padding: 23px 0;
   position: absolute;
   top: 184px;
-  width: 400px;
+  width: 100%; /* Add this line */
+  max-width: 400px; /* Add this line */
 }
 
 .page2 .title {
@@ -61,7 +62,6 @@ body {
   font-family: var("assets/fonts/AbhayaLibre-ExtraBold.ttf");
   font-size: var(--font-size-xxl);
   font-weight: 550;
-  letter-spacing: -0.75px;
   line-height: 30px;
   margin-right: -40px;
   min-width: 284px;
@@ -101,6 +101,22 @@ body {
   width: 242px;
 }
 
+/* .page2 .group-11 {
+  align-items: center;
+  border: 1.5px solid;
+  border-color: var(--black);
+  border-radius: 27.5px;
+  cursor: pointer;
+  display: flex;
+  height: 55px;
+  position: absolute;
+  left: 120px;
+  top: 125px;
+  min-width: 55px;
+  padding: 17px;
+} */
+
+
 .page2 .group-11 {
   align-items: center;
   border: 1.5px solid;
@@ -114,20 +130,9 @@ body {
   top: 320px; 
   min-width: 55px;
   padding: 17.3px 12.2px;
+  margin-top: 2.6rem;
+  margin-left: 10.5rem;
 
-  /* position: fixed;
-  align-items: center;
-  border: 1.5px solid;
-  border-color: var(--black);
-  border-radius: 27.5px;
-  cursor: pointer;
-  display: flex;
-  height: 55px;
-  left: 100px;
-  top: 40px;
-  min-width: 55px;
-  padding: 17.3px 12.2px;
-  background-color: transparent; */
 }
 
 @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
