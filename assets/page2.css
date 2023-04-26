@@ -49,12 +49,11 @@ body {
   box-shadow: 12px 12px 0px #33322e;
   display: flex;
   flex-direction: column;
-  left: 453px;
   min-height: 419px;
   padding: 23px 0;
   position: absolute;
   top: 184px;
-  width: 396px;
+  width: 400px;
 }
 
 .page2 .title {
@@ -64,9 +63,9 @@ body {
   font-weight: 550;
   letter-spacing: -0.75px;
   line-height: 30px;
-  margin-right: -92.0px;
+  margin-right: -40px;
   min-width: 284px;
-  white-space: nowrap;
+  align-items: center;
 }
 
 .page2 .overlap-group {
@@ -103,23 +102,32 @@ body {
 }
 
 .page2 .group-11 {
-  align-items: flex-start;
+  align-items: center;
   border: 1.5px solid;
   border-color: var(--black);
   border-radius: 27.5px;
   cursor: pointer;
   display: flex;
   height: 55px;
-  left: 89px;
+  position: initial;
+  left: 20px;
+  top: 320px; 
   min-width: 55px;
   padding: 17.3px 12.2px;
-  position: top;
-  top: 812px;
-}
 
-.page2 .arrow-1 {
-  height: 18px;
-  width: 26px;
+  /* position: fixed;
+  align-items: center;
+  border: 1.5px solid;
+  border-color: var(--black);
+  border-radius: 27.5px;
+  cursor: pointer;
+  display: flex;
+  height: 55px;
+  left: 100px;
+  top: 40px;
+  min-width: 55px;
+  padding: 17.3px 12.2px;
+  background-color: transparent; */
 }
 
 @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
@@ -169,14 +177,15 @@ body {
   
 button {
   position: fixed;
-  align-items: flex-start;
+  align-items: center;
   border: 1.5px solid;
   border-color: var(--black);
   border-radius: 27.5px;
   cursor: pointer;
   display: flex;
   height: 55px;
-  left: 89px;
+  left: 100px;
+  top: 40px;
   min-width: 55px;
   padding: 17.3px 12.2px;
   background-color: transparent;

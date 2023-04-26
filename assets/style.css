@@ -94,10 +94,8 @@ body {
   .homepage .jar {
     height: 650px;
     right: 732px;
-    /* top: 151px; */ 
     width: 478px;
-    /* position:absolute; */
-    
+    display: flex;
   }
   
   .homepage .birthday-countdown-w {
@@ -175,4 +173,3 @@ body {
   font-style: normal;
   font-weight: 400;
 }
-
